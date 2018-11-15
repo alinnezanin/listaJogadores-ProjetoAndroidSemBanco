@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "345823971060",
+    "firebase_url": "https://projetotimes-6f6d9.firebaseio.com",
+    "project_id": "projetotimes-6f6d9",
+    "storage_bucket": "projetotimes-6f6d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345823971060:android:96da6896bbcdb67c",
+        "android_client_info": {
+          "package_name": "com.example.aluno.projeto1234"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345823971060-95sq3ep4b1ut4vd5p62di8egnuvmcb2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2-Q9UxKvRtl7dmdU5ExGvhDNPNg9uc6c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
