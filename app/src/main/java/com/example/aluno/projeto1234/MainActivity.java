@@ -13,6 +13,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText edtNome, edtIdade;
@@ -38,14 +40,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Jogador jogador = new Jogador();
-                jogador.setIdade_jogador(edtIdade.getText().toString());
+                jogador.setIdade_jogador(Integer.parseInt(edtIdade.getText().toString()));
                 jogador.setNome_jogador(edtNome.getText().toString());
 
                 //linha que salva no banco
                 ref.child("jogadores").push().setValue(jogador);
                 Toast.makeText(MainActivity.this, "Jogador Salvo com Sucesso", Toast.LENGTH_LONG).show();
 
-                Intent intent = new Intent(MainActivity.this, lista_jogadores.class);
+                Intent intent = new Intent(MainActivity.this, Lista_jogadores.class);
                 startActivity(intent);
 
 
